@@ -32,6 +32,8 @@ class MainActivity : ComponentActivity(), SendOTP {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         requestsmspermission()
+
+        // Register Otp Listening.
         registerOtpReceiver()
         enableEdgeToEdge()
 
