@@ -1,9 +1,19 @@
 # Sample Implementation for SMSOTP Autoread on Android 
 ### The sample over here demonstrates how to use the google SMS Retriever API by google.
 ### You get to filter out any particular sender ID that you expect to read from
+<img width="330" alt="Screenshot 2024-06-27 at 13 33 01" src="https://github.com/bensalcie/SMSOTP-Autoread/assets/17502827/0078a9a7-d4f7-45d7-8c07-d33c60c1316b">
 
+<img width="330" alt="Screenshot 2024-06-27 at 13 34 17" src="https://github.com/bensalcie/SMSOTP-Autoread/assets/17502827/9bd21810-5698-478b-bb4d-eb5d66f9e67c">
+<img width="330" alt="Screenshot 2024-06-27 at 13 39 41" src="https://github.com/bensalcie/SMSOTP-Autoread/assets/17502827/b5a60d5a-256c-4f2b-893e-f2e80f93258b">
+
+
+
+
+#
+#
  - Please Note that with Implementations requiring  you to use the following permissions, you need very concrete reasons to defend them on google play console.
  - SMS Retriever API does not require any permissions, just registering the broadcast reciever at run time.
+
 
 ```
     <uses-permission android:name="android.permission.WRITE_SMS"/>
